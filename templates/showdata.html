@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>数据展示</title>
+</head>
+<body>
+{#    <div class="allContent">{% for item in data %}#}
+{#            <p>描述：{{ item.cdescribe }} | 实体1：{{ item.centity1 }} | 关系：{{ item.crelationship}} | 实体2：{{ item.centity2 }}</p>#}
+{#            {% endfor %}#}
+{#    </div>#}
+
+    <div class="allContent">{% for item in data %}
+            <p>描述：{{ item.describe }} | 实体1：{{ item.entity1 }} | 关系：{{ item.relationship}} | 实体2：{{ item.entity2 }}</p>
+            {% endfor %}
+    </div>
+</body>
+</html>
